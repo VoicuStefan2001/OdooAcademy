@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 {
-    'name' : 'LKtesting',
+    'name' : 'Academy Lyall',
     'version' : '1.0',
     'summary': 'Lyall\'s testing module',
     'sequence': 100,
@@ -9,12 +9,12 @@
 Testing space
 ====================
 
-The primary testspace module for Lyall to experiment on the database
+The primary module for working with content for the academy.
    """,
     'category': '',
     'website': '',
     'images' : ['static/canada.png'],
-    'depends' : ['base_setup', 'product', 'analytic', 'portal', 'digest'],
+    'depends' : [],
     'installable': True,
     'application': True,
     'auto_install': False,
